@@ -1,0 +1,39 @@
+.nav-item{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5px;
+    background-image: url(./../img/op1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 280px;
+    height: 45px;
+    color: #000000;
+
+}
+.nav-item:hover{
+    background-image: url(./../img/po2.jpg);
+    color: aliceblue;
+}
+
+.naw-bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.naw-text{
+    position: relative;
+    z-index: 2;
+    font-size: 16px;
+    line-height: 45px;
+}
+#map {
+    width: 858px;
+    height: 464px;
+    margin-top: 12px;
+}
+.no-msg{
+    font-size: 16px;
+}
